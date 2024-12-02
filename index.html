@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+  <title>Bikcraft - Bicicletas Elétricas</title>
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>
+    document.documentElement.classList.add("js")
+  </script>
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="container header">
+      <a href="./" class="font-1-m cor-0">Comunicação Empresarial da Microsoft</a>
+      <nav aria-label="primaria">
+        <ul class="header-menu font-1-m cor-0">
+          <li><a href="#historia">História</a></li>
+          <li><a href="#comunicacao">Comunicação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="introducao-bg">
+    <div class="container introducao">
+      <div class="introducao-conteudo">
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Blog Microsoft: Inovação e Impacto<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bem-vindo ao blog da Microsoft! Aqui, exploramos a história, os produtos, as estratégias de comunicação e os valores que moldam uma das maiores empresas de tecnologia do mundo. Este espaço foi criado para apresentar como a Microsoft transforma vidas por meio da inovação e da comunicação eficiente. Navegue por nossas seções para conhecer nossa história, portfólio e impacto no mundo. </p>
+        <!-- <a class="botao fadeInDown" href="./bicicletas.html" data-anime="600">Escolha a sua</a> -->
+      </div>
+      <picture class="fadeInLeft" data-anime="800">
+        <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="./img/fotos/introdu.jpeg" width="896" height="1152" alt="Bicicleta elétrica preta">
+      </picture>
+    </div>
+  </main>
+
+  <article id="historia" class="perguntas container">
+    <h2 class="font-1-xxl">nossa história<span class="cor-p1">.</span></h2>
+    <dl>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta1" aria-expanded="true">Quem fundou a Microsoft e quando?</button></dt>
+        <dd id="pergunta1" class="font-2-s cor-9 ativa">A Microsoft foi fundada em 1975 por Bill Gates e Paul Allen.</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta2" aria-expanded="true">Qual foi o primeiro produto de destaque da Microsoft?</button></dt>
+        <dd id="pergunta2" class="font-2-s cor-9">A empresa começou desenvolvendo o MS-DOS, que rapidamente se tornou um marco no mercado de computação pessoal.</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta3" aria-expanded="true">Qual foi o impacto do Windows na tecnologia?</button></dt>
+        <dd id="pergunta3" class="font-2-s cor-9">Poucos anos após o MS-DOS, o lançamento do Windows mudou para sempre a forma como o mundo interage com a tecnologia.</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta4" aria-expanded="true">Como a Microsoft expandiu suas operações ao longo do tempo?</button></dt>
+        <dd id="pergunta4" class="font-2-s cor-9">Ao longo das décadas, a Microsoft inovou com produtos como Office, Azure, Surface e Xbox, consolidando sua posição como líder global no setor de tecnologia.</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta5" aria-expanded="true">Onde fica a sede da Microsoft e quantos colaboradores ela possui?</button></dt>
+        <dd id="pergunta5" class="font-2-s cor-9">A sede está localizada em Redmond, Washington, e a empresa emprega mais de 220.000 pessoas em mais de 190 países.</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta6" aria-expanded="true">Qual é a missão da Microsoft?</button></dt>
+        <dd id="pergunta6" class="font-2-s cor-9">"Capacitar cada pessoa e organização no planeta a alcançar mais."</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta7" aria-expanded="true">Qual é a visão da Microsoft?</button></dt>
+        <dd id="pergunta7" class="font-2-s cor-9">"Ser referência global em inovação tecnológica."</dd>
+      </div>
+      <div>
+        <dt><button class="font-1-m-b" aria-controls="pergunta8" aria-expanded="true">Quais são os valores da Microsoft?</button></dt>
+        <dd id="pergunta8" class="font-2-s cor-9">Inovação, Integridade, Inclusão e Sustentabilidade</dd>
+      </div>
+    </dl>
+
+  </article>
+
+  <!-- <article class="bicicletas-lista">
+    <h2 class="container font-1-xxl">Escolha a sua<span class="cor-p1">.</span></h2>
+    <ul>
+      <li>
+        <a href="./bicicletas/magic.html">
+          <img src="./img/bicicletas/magic-home.jpg" width="920" height="1040" alt="Bicicleta Magic">
+          <h3 class="font-1-xl">Magic Might</h3>
+          <span class="font-2-m cor-8">R$ 2499</span>
+        </a>
+      </li>
+      <li>
+        <a href="./bicicletas/nimbus.html">
+          <img src="./img/bicicletas/nimbus-home.jpg" width="920" height="1040" alt="Bicicleta Nimbus">
+          <h3 class="font-1-xl">Nimbus Stark</h3>
+          <span class="font-2-m cor-8">R$ 4999</span>
+        </a>
+      </li>
+      <li>
+        <a href="./bicicletas/nebula.html">
+          <img src="./img/bicicletas/nebula-home.jpg" width="920" height="1040" alt="Bicicleta Nebula">
+          <h3 class="font-1-xl">Nebula Cosmic</h3>
+          <span class="font-2-m cor-8">R$ 3999</span>
+        </a>
+      </li>
+    </ul>
+  </article> -->
+
+  <article id="comunicacao" class="tecnologia-bg">
+    <div class="tecnologia container">
+      <div class="tecnologia-conteudo">
+        <span class="font-2-l-b cor-5">Comunicação</span>
+        <h2 class="font-1-xxl cor-0">nossa comunicação empresarial<span class="cor-p1">.</span></h2>
+        <p class="font-2-l cor-5">Na Microsoft, a comunicação empresarial desempenha um papel central no sucesso da organização. Trabalhamos com fluxos de comunicação eficientes e canais integrados para garantir alinhamento e produtividade em escala global.</p>
+        <div class="tecnologia-vantagens">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbb703" class="bi bi-diagram-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+            </svg>
+            <h3 class="font-1-m cor-0">Fluxos de Comunicação</h3>
+            <p class="font-2-s cor-5">Trabalhamos com fluxos de comunicação verticais e horizontais. Diretrizes claras e feedbacks são promovidos para colaboração contínua e inovação.</p>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbb703" class="bi bi-check-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+              <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05" />
+            </svg>
+            <h3 class="font-1-m cor-0">Soluções Implementadas</h3>
+            <p class="font-2-s cor-5">Investimos em treinamentos regulares, uso de ferramentas integradas e políticas claras para superar barreiras culturais e linguísticas.</p>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbb703" class="bi bi-chat-dots" viewBox="0 0 16 16">
+              <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+              <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9 9 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.4 10.4 0 0 1-.524 2.318l-.003.011a11 11 0 0 1-.244.637c-.079.186.074.394.273.362a22 22 0 0 0 .693-.125m.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6-3.004 6-7 6a8 8 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a11 11 0 0 0 .398-2" />
+            </svg>
+            <h3 class="font-1-m cor-0">Canais Internos</h3>
+            <p class="font-2-s cor-5">Utilizamos ferramentas como Microsoft Teams para comunicação em tempo real e SharePoint para gestão eficiente de documentos.</p>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbb703" class="bi bi-megaphone" viewBox="0 0 16 16">
+              <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z" />
+            </svg>
+            <h3 class="font-1-m cor-0">Canais Externos</h3>
+            <p class="font-2-s cor-5">Engajamos nossos públicos por meio de redes sociais (Twitter, LinkedIn, Instagram), newsletters e nosso website oficial.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tecnologia-imagem">
+        <img src="./img/fotos/tecnologia.png" width="1200" height="1920" alt="">
+      </div>
+    </div>
+  </article>
+
+  <section class="contato-bg">
+    <div class="titulo-bg">
+      <div class="titulo container">
+        <p class="font-2-l-b cor-9">Respostas em até 24h</p>
+        <h1 class="font-1-xxl">nosso contato<span class="cor-p1">.</span></h1>
+      </div>
+    </div>
+    <div class="contato container">
+      <section class="contato-dados" aria-label="Endereço">
+        <h2 class="font-1-m cor-0">Microsoft</h2>
+        <div class="contato-endereco font-2-s cor-4">
+          <p>Microsoft Corporation</p>
+          <p>One Microsoft Way,</p>
+          <p>Redmond, WA 98052, USA</p>
+        </div>
+        <address class="contato-meios font-2-s cor-4">
+          <a href="mailto:contato@bikcraft.com">contato@microsoft.com</a>
+          <a href="tel:+5521999999999">+1 800-123-4567 (Atendimento ao Cliente)</a>
+        </address>
+        <div class="contato-redes">
+          <a href="https://www.instagram.com/microsoft/">
+            <img src="./img/redes/instagram-p.svg" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/Microsoft">
+            <img src="./img/redes/facebook-p.svg" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="https://www.youtube.com/microsoft">
+            <img src="./img/redes/youtube-p.svg" width="32" height="32" alt="Youtube">
+          </a>
+        </div>
+      </section>
+      <section class="contato-formulario" aria-label="Formulário">
+        <form class="form" action="./contato.html">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(00) 0 0000-0000">
+          </div>
+          <div class="col-2">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+          </div>
+          <div class="col-2">
+            <label for="mensagem">Mensagem:</label>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+          </div>
+          <button class="botao col-2">Enviar Mensagem</button>
+        </form>
+      </section>
+    </div>
+
+  </section>
+
+  <article id="portfolio" class="vantagens-bg">
+    <div class="vantagens container">
+      <h2 class="font-1-xxl cor-0">nosso portfólio<span class="cor-p1">.</span></h2>
+      <ul>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Windows</h3>
+          <p class="font-2-s cor-5">O sistema operacional mais utilizado no mundo, oferecendo simplicidade, segurança e produtividade em todos os dispositivos.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Microsoft Office</h3>
+          <p class="font-2-s cor-5">Uma suíte de produtividade líder no mercado, com ferramentas como Word, Excel, PowerPoint e Teams que impulsionam o trabalho e a colaboração.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Azure</h3>
+          <p class="font-2-s cor-5">Uma plataforma de computação em nuvem inovadora que oferece soluções escaláveis, inteligência artificial e ferramentas de análise de dados.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Xbox</h3>
+          <p class="font-2-s cor-5">Uma experiência de entretenimento incomparável, com jogos exclusivos, serviços como o Xbox Game Pass e uma comunidade global de gamers.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Surface</h3>
+          <p class="font-2-s cor-5">Dispositivos projetados para combinar mobilidade, design premium e inovação tecnológica, ideais para trabalho e lazer.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Inovação Constante</h3>
+          <p class="font-2-s cor-5">Com bilhões investidos em pesquisa e desenvolvimento, a Microsoft está sempre na vanguarda tecnológica.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Sustentabilidade</h3>
+          <p class="font-2-s cor-5">Um compromisso com a redução de emissões de carbono e práticas empresariais que preservam o meio ambiente.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Acessibilidade</h3>
+          <p class="font-2-s cor-5">Criação de produtos e serviços inclusivos, garantindo que a tecnologia seja acessível a todos, independentemente de suas necessidades.</p>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffbb00" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+          </svg>
+          <h3 class="font-1-l cor-0">Educação e Empresas</h3>
+          <p class="font-2-s cor-5">Ferramentas especialmente projetadas para atender às necessidades de instituições educacionais e empresas que buscam soluções eficientes.</p>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- <section class="parceiros" aria-label="Nossos Parceiros">
+    <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
+    <ul>
+      <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt="Caravan"></li>
+      <li><img src="./img/parceiros/ranek.svg" width="149" height="36" alt="Ranekd"></li>
+      <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt="Caravan"></li>
+      <li><img src="./img/parceiros/dogs.svg" width="152" height="39" alt="Dogs"></li>
+      <li><img src="./img/parceiros/lescone.svg" width="208" height="41" alt="Lescone"></li>
+      <li><img src="./img/parceiros/flexblog.svg" width="165" height="38" alt="Flexblog"></li>
+      <li><img src="./img/parceiros/wildbeast.svg" width="196" height="34" alt="Wildbeast"></li>
+      <li><img src="./img/parceiros/surfbot.svg" width="200" height="49" alt="Surfbot"></li>
+    </ul>
+  </section> -->
+  <section class="depoimento" aria-label="Depoimento">
+    <div>
+      <img src="./img/fotos/depoimento.jpg" width="1560" height="1360" alt="PEssoa pedalando uma bicicleta Bikcraft">
+    </div>
+    <div class="depoimento-conteudo">
+      <blockquote class="font-2-l cor-p5">
+        <p>A Microsoft revelou um investimento de R$ 14,7 bilhões no Brasil ao longo de três anos, com foco na expansão de sua infraestrutura de nuvem e no desenvolvimento de inteligência artificial (IA). Este investimento faz parte do plano "Microsoft Mais Brasil", que visa não apenas aumentar a presença da empresa no país, mas também capacitar 5 milhões de pessoas com treinamentos em IA. Além disso, a Microsoft está comprometida em se tornar negativa em carbono até 2030, integrando práticas sustentáveis em suas operações.</p>
+      </blockquote>
+      <span class="font-1-s cor-p4">Fonte: Microsoft News. <a href="https://news.microsoft.com/pt-br/microsoft-anuncia-investimento-de-r-147-bilhoes-ao-longo-de-tres-anos-em-infraestrutura-de-nuvem-e-ia-e-oferece-treinamento-em-ia-em-larga-escala-para-capacitar-5-milhoes-de-pessoas-no-brasil/">Microsoft anuncia investimento de R$ 14,7 bilhões ao longo de três anos em infraestrutura de nuvem e IA</a> (2024).</span>
+    </div>
+  </section>
+  <!-- <article class="seguros-bg">
+    <div class="seguros container">
+      <h2 class="font-1-xxl cor-0">seguros<span class="cor-p1">.</span></h2>
+      <div class="seguros-item">
+        <h3 class="font-1-xl cor-6">PRATA</h3>
+        <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span> </span>
+        <ul class="font-2-m cor-0">
+          <li>Duas trocas por ano</li>
+          <li>Assistência técnica</li>
+          <li>Suporte 08h às 18h</li>
+          <li>Cobertura estadual</li>
+        </ul>
+        <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+      </div>
+      <div class="seguros-item">
+        <h3 class="font-1-xl cor-p1">OURO</h3>
+        <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span> </span>
+        <ul class="font-2-m cor-0">
+          <li>Cinco trocas por ano</li>
+          <li>Assistência especial</li>
+          <li>Suporte 24h</li>
+          <li>Cobertura nacional</li>
+          <li>Desconto em parceiros</li>
+          <li>Acesso ao Clube Bikcraft</li>
+        </ul>
+        <a class="botao" href="./orcamento.html">Inscreva-se</a>
+      </div>
+    </div>
+  </article> -->
+  <footer class="footer-bg">
+    <div class="footer container">
+      <a href="./" class="font-1-m cor-0">Comunicação Empresarial da Microsoft</a>
+      <div class="footer-contato">
+        <h3 class="font-2-l-b cor-0">Contato</h3>
+        <ul class="font-2-m cor-5">
+          <li> <a href="tel:+5521999999999">+1 800-123-4567 (Atendimento ao Cliente)</a></li>
+          <li> <a href="mailto:contato@bikcraft.com">contato@microsoft.com</a></li>
+          <li>Microsoft Corporation</li>
+          <li>One Microsoft Way,</li>
+          <li>Redmond, WA 98052, USA</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="https://www.instagram.com/microsoft/">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/Microsoft">
+            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="https://www.youtube.com/microsoft">
+            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3 class="font-2-l-b cor-0">Informações</h3>
+        <nav aria-label="secundaria">
+          <ul class="font-1-m cor-5">
+            <li><a href="#historia">História</a></li>
+            <li><a href="#comunicacao">Comunicação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-copy font-2-m cor-6">Comunicação Empresarial da Microsoft © Alguns direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
